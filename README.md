@@ -43,3 +43,9 @@ git commit -m "First Commit"
 
 ```
 git add : takes a modified file in your working directory and places the modified version in a staging area. git commit takes everything from the staging area and makes a permanent snapshot of the current state of your repository that is associated with a unique identifier
+
+Pushing files in a local repository to GitHub repository
+```bash
+git remote add origin https://github.com/user_name/Mytest.git
+git push origin master
+```
